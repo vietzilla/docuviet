@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" modified="2022-08-01T21:05:03.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="34t_k_O0NJ2mKlphpB_5" version="20.1.1" type="github">
+  <diagram id="HsSSpAIMPU6miMTCkn_X" name="Page-1">
+    <mxGraphModel dx="1359" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-2" value="&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 17px;&quot;&gt;OAuth 2.0 Flow&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="340" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-4" value="Google API" style="whiteSpace=wrap;html=1;fontSize=17;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="490" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontColor=#1A1A1A;" parent="1" source="iGsSyt_LQ1O5PGhA33Kj-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="221" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="160" />
+              <mxPoint x="200" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-6" value="" style="shape=actor;whiteSpace=wrap;html=1;fontSize=17;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="70" y="130" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1A1A1A;" parent="1" source="iGsSyt_LQ1O5PGhA33Kj-20" target="iGsSyt_LQ1O5PGhA33Kj-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-20" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="220" y="130" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1A1A1A;strokeColor=#FF0000;" parent="1" source="iGsSyt_LQ1O5PGhA33Kj-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-22" value="VietZilla App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="480" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-25" value="&lt;span style=&quot;&quot;&gt;vietIlla.com/app&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="340" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-27" value="access google API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="490" y="225" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#1A1A1A;fillColor=none;gradientColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="350" y="110" width="500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

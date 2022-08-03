@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T21:05:03.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="34t_k_O0NJ2mKlphpB_5" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T19:02:04.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Dhs86KzhLOkKRRDpgHCE" version="20.2.2" type="github">
   <diagram id="HsSSpAIMPU6miMTCkn_X" name="Page-1">
-    <mxGraphModel dx="1359" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1388" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iGsSyt_LQ1O5PGhA33Kj-2" value="&lt;font color=&quot;#1a1a1a&quot; style=&quot;font-size: 17px;&quot;&gt;OAuth 2.0 Flow&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="80" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-4" value="Google API" style="whiteSpace=wrap;html=1;fontSize=17;fontColor=#1A1A1A;" parent="1" vertex="1">
-          <mxGeometry x="490" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-4" value="Paypal Authorization&lt;br&gt;Server" style="whiteSpace=wrap;html=1;fontSize=17;fontColor=#1A1A1A;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iGsSyt_LQ1O5PGhA33Kj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontColor=#1A1A1A;" parent="1" source="iGsSyt_LQ1O5PGhA33Kj-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -22,15 +22,9 @@
         <mxCell id="iGsSyt_LQ1O5PGhA33Kj-6" value="" style="shape=actor;whiteSpace=wrap;html=1;fontSize=17;fontColor=#1A1A1A;" parent="1" vertex="1">
           <mxGeometry x="70" y="130" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1A1A1A;" parent="1" source="iGsSyt_LQ1O5PGhA33Kj-20" target="iGsSyt_LQ1O5PGhA33Kj-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-20" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="220" y="130" width="100" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1A1A1A;strokeColor=#FF0000;" parent="1" source="iGsSyt_LQ1O5PGhA33Kj-22" edge="1">
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#1A1A1A;" parent="1" target="iGsSyt_LQ1O5PGhA33Kj-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="330" as="targetPoint" />
+            <mxPoint x="320" y="165" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iGsSyt_LQ1O5PGhA33Kj-22" value="VietZilla App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -39,11 +33,35 @@
         <mxCell id="iGsSyt_LQ1O5PGhA33Kj-25" value="&lt;span style=&quot;&quot;&gt;vietIlla.com/app&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#1A1A1A;" parent="1" vertex="1">
           <mxGeometry x="340" y="135" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-27" value="access google API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#1A1A1A;" parent="1" vertex="1">
-          <mxGeometry x="490" y="225" width="140" height="30" as="geometry" />
+        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#1A1A1A;fillColor=none;gradientColor=#ffffff;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="570" width="490" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iGsSyt_LQ1O5PGhA33Kj-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#1A1A1A;fillColor=none;gradientColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="350" y="110" width="500" height="150" as="geometry" />
+        <mxCell id="vmqhQKorAQydmtORhxEq-2" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;rounded=1;glass=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="146.5" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="vmqhQKorAQydmtORhxEq-3" value="" style="shape=datastore;whiteSpace=wrap;html=1;rounded=1;glass=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="450" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmqhQKorAQydmtORhxEq-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#D2D3D3;gradientColor=none;rounded=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="135" width="90" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vmqhQKorAQydmtORhxEq-14" value="Paypal API" style="whiteSpace=wrap;html=1;fontSize=17;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="680" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmqhQKorAQydmtORhxEq-16" value="Provides ClientId &amp;amp;&lt;br&gt;Client Secret" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;glass=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="330" width="80" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="vmqhQKorAQydmtORhxEq-17" value="Paypal Resource&lt;br&gt;Server" style="whiteSpace=wrap;html=1;fontSize=17;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmqhQKorAQydmtORhxEq-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.58;entryY=1.089;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF6E30;" edge="1" parent="1" source="iGsSyt_LQ1O5PGhA33Kj-4" target="iGsSyt_LQ1O5PGhA33Kj-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="420" as="sourcePoint" />
+            <mxPoint x="500" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmqhQKorAQydmtORhxEq-20" value="Returns Authorization Token&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;glass=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="225" width="80" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
